@@ -4,7 +4,7 @@ import "./component.css";
 
 const PageLayout = (props) => {
   return (
-    <Container className="container">
+    <Container className="page-container">
       <Row className="row">
         <Col className="col-one" xs={4}>
           Title
