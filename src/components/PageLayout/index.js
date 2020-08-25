@@ -6,7 +6,7 @@ const PageLayout = (props) => {
   return (
     <Container className="container">
       <Row className="row">
-        <Col className="col-one" xs={3}>
+        <Col className="col-one" xs={4}>
           Title
           <br /> new Item
         </Col>
