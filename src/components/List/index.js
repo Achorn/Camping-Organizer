@@ -5,39 +5,28 @@ import Item from "../Item";
 
 class CampingList extends Component {
   render() {
+    const list = [
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+      { title: "BackPack", weight: 5 },
+    ];
     return (
-      // <Container className={"classes.list-container"}>
-      //   <Item title={"backpack"} weight={16} />
-      //   <Row>
-      //     <Col>1 of 2</Col>
-      //     <Col>2 of 2</Col>
-      //   </Row>
-      //   <Row>
-      //     <Col>1 of 3</Col>
-      //     <Col>2 of 3</Col>
-      //     <Col>3 of 3</Col>
-      //   </Row>
-      // </Container>
       <Container>
         <Row>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
-          <Col xs={3}>
-            <Item title="Backpack" weight={6} />
-          </Col>
+          {list.map((item) => {
+            return (
+              <Col className="classes.list-col" xs={4}>
+                <Item title={item.title} weight={item.weight} />
+              </Col>
+            );
+          })}
         </Row>
       </Container>
       // <CardDeck>

@@ -1,3 +1,7 @@
 .list-container {
   /* padding: 25px; */
 }
+
+.list-col {
+  padding: 30px !important;
+}

@@ -1,6 +1,9 @@
 .card {
+  /* box-shadow: 2px 2px 4px #333333; */
+  border-radius: 10px !important;
+  margin-top: 40px;
+  height: 192px;
 }
 
 .body {
-  background-color: red;
 }
