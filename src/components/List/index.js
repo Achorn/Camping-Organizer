@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { CardDeck } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./component.css";
 import Item from "../Item";
 
@@ -18,22 +18,34 @@ class CampingList extends Component {
       //     <Col>3 of 3</Col>
       //   </Row>
       // </Container>
-      <>
-        <CardDeck>
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-        </CardDeck>
-        <CardDeck>
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-          <Item title={"BackPack"} weight={6} />
-          {/* <Item title={"BackPack"} weight={6} />
-      <Item title={"BackPack"} weight={6} /> */}
-        </CardDeck>
-      </>
+      <Container>
+        <Row>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+          <Col xs={3}>
+            <Item title="Backpack" weight={6} />
+          </Col>
+        </Row>
+      </Container>
+      // <CardDeck>
+      //   <Item title={"BackPack"} weight={6} />
+      //   <Item title={"BackPack"} weight={6} />
+      //   <Item title={"BackPack"} weight={6} />
+      //   <Item title={"BackPack"} weight={6} />
+      // </CardDeck>
     );
   }
 }
