@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./component.css";
 import Title from "../Title";
+import CampingList from "../List";
 
 const PageLayout = (props) => {
   return (
@@ -13,7 +14,9 @@ const PageLayout = (props) => {
             subTitle={"Add your items, add their weight, have fun"}
           />
         </Col>
-        <Col className="list-container">List</Col>
+        <Col className="list-container">
+          <CampingList />
+        </Col>
       </Row>
     </Container>
   );
