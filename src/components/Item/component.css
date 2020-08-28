@@ -2,8 +2,20 @@
   /* box-shadow: 2px 2px 4px #333333; */
   border-radius: 10px !important;
   margin-top: 40px;
-  height: 192px;
+  /* height: 192px; */
 }
 
+.item-title {
+  margin-bottom: 20px !important;
+}
+.item-subtitle {
+  margin-bottom: 20px !important;
+}
+
+.button-container {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-around;
+}
 .body {
 }
