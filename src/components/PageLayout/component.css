@@ -14,7 +14,10 @@
   padding: 20px;
   margin: 0;
   background-color: white;
+  height: 100vh;
 }
 .list-container {
+  height: 100vh;
   background-color: #f9e49c;
+  overflow: scroll;
 }
