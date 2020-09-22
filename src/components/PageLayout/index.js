@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./component.css";
 import Title from "../Title";
 import CampingList from "../List";
+import Total from "../Total";
 
 const PageLayout = (props) => {
   return (
