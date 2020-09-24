@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Camping-Organizer/static/css/main.fa88da92.chunk.css",
-    "main.js": "/Camping-Organizer/static/js/main.f959350b.chunk.js",
-    "main.js.map": "/Camping-Organizer/static/js/main.f959350b.chunk.js.map",
+    "main.css": "/Camping-Organizer/static/css/main.9b57e699.chunk.css",
+    "main.js": "/Camping-Organizer/static/js/main.f7e8d283.chunk.js",
+    "main.js.map": "/Camping-Organizer/static/js/main.f7e8d283.chunk.js.map",
     "runtime-main.js": "/Camping-Organizer/static/js/runtime-main.80bd8499.js",
     "runtime-main.js.map": "/Camping-Organizer/static/js/runtime-main.80bd8499.js.map",
     "static/css/2.11829350.chunk.css": "/Camping-Organizer/static/css/2.11829350.chunk.css",
-    "static/js/2.cf818b5e.chunk.js": "/Camping-Organizer/static/js/2.cf818b5e.chunk.js",
-    "static/js/2.cf818b5e.chunk.js.map": "/Camping-Organizer/static/js/2.cf818b5e.chunk.js.map",
+    "static/js/2.60517fba.chunk.js": "/Camping-Organizer/static/js/2.60517fba.chunk.js",
+    "static/js/2.60517fba.chunk.js.map": "/Camping-Organizer/static/js/2.60517fba.chunk.js.map",
     "index.html": "/Camping-Organizer/index.html",
-    "precache-manifest.d27e989602cf14e77033f08da9048061.js": "/Camping-Organizer/precache-manifest.d27e989602cf14e77033f08da9048061.js",
+    "precache-manifest.b503adfb0ae01ce45540d0cae50d7ccd.js": "/Camping-Organizer/precache-manifest.b503adfb0ae01ce45540d0cae50d7ccd.js",
     "service-worker.js": "/Camping-Organizer/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Camping-Organizer/static/css/2.11829350.chunk.css.map",
-    "static/css/main.fa88da92.chunk.css.map": "/Camping-Organizer/static/css/main.fa88da92.chunk.css.map",
-    "static/js/2.cf818b5e.chunk.js.LICENSE.txt": "/Camping-Organizer/static/js/2.cf818b5e.chunk.js.LICENSE.txt"
+    "static/css/main.9b57e699.chunk.css.map": "/Camping-Organizer/static/css/main.9b57e699.chunk.css.map",
+    "static/js/2.60517fba.chunk.js.LICENSE.txt": "/Camping-Organizer/static/js/2.60517fba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.80bd8499.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.cf818b5e.chunk.js",
-    "static/css/main.fa88da92.chunk.css",
-    "static/js/main.f959350b.chunk.js"
+    "static/js/2.60517fba.chunk.js",
+    "static/css/main.9b57e699.chunk.css",
+    "static/js/main.f7e8d283.chunk.js"
   ]
 }

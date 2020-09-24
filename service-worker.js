@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Camping-Organizer/precache-manifest.d27e989602cf14e77033f08da9048061.js"
+  "/Camping-Organizer/precache-manifest.b503adfb0ae01ce45540d0cae50d7ccd.js"
 );
 
 self.addEventListener('message', (event) => {
